@@ -17,7 +17,7 @@ type StyledProps = {
 const NavbarStyled = styled.nav<StyledProps>`
   display: ${({ isOpen }) => isOpen ? 'grid' : 'none'};
   position: fixed;
-  top: 64px;
+  top: 74px;
   bottom: 0;
   left: 0;
   right: 0;

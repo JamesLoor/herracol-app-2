@@ -3,13 +3,10 @@ import styled from "styled-components";
 export const defaultTheme = {
   colors: {
     primary: '#000000',
-    secundaryLight: '#ffffff',
-    secundaryDark: '#888888',
-    black: '#000000',
-    accent: '#000000',
-    paragraph: '#5F5F5F',
-    stroke: '#333333',
-    shadow: '',
+    accent: '#091254',
+    secundary: '#FFFFFF',
+    gray: '#8A8A8A',
+    stroke: '#BDBDBD',
   },
   positions: {
     header: 1000,
@@ -20,7 +17,7 @@ export const defaultTheme = {
 }
 
 export const Wrapper = styled.div`
-  padding: 0 3%;
+  padding: 0 25px;
 `
 
 export const H2 = styled.h2`

@@ -1,4 +1,4 @@
-const Menu = ({ ...props }) => {
+const Close = ({ ...props }) => {
   return (
     <svg
       width="30"
@@ -9,7 +9,7 @@ const Menu = ({ ...props }) => {
       { ...props }
     >
       <path
-        d="M5 9H25M5 15H25M15 21L25 21"
+        d="M8 8L21.5653 21.0001M21.5653 8L8 21.0001"
         stroke="black"
         strokeWidth="1.5"
         strokeLinecap="round"
@@ -18,4 +18,4 @@ const Menu = ({ ...props }) => {
   )
 }
 
-export default Menu
+export default Close

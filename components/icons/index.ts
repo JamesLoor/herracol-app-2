@@ -1,1 +1,7 @@
 export { default as Menu } from './Menu'
+export { default as User } from './User'
+export { default as Heart } from './Heart'
+export { default as Cart } from './Cart'
+export { default as Close } from './Close'
+export { default as Logo } from './Logo'
+export { default as Search } from './Search'
